@@ -336,6 +336,11 @@
   dependencies:
     "@types/jasmine" "*"
 
+"@types/knockout@3.4.46":
+  version "3.4.46"
+  resolved "https://registry.yarnpkg.com/@types/knockout/-/knockout-3.4.46.tgz#e8bf3c356524f4b4b6b4e4159da363e49e826468"
+  integrity sha512-dsnfVF8CPQNv3mk7iQS2mGv7AAUVRcTGExbrlfwDD1AZPaV8cquHsVw3mLIFBsiHL8h4TiECiWtukqTF9dcEug==
+
 "@types/node@*":
   version "11.13.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.4.tgz#f83ec3c3e05b174b7241fadeb6688267fe5b22ca"
@@ -3822,6 +3827,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
+knockout@^3.4.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/knockout/-/knockout-3.5.0.tgz#6d3e19bf53b1dc4d8de81c97a5ba9672443dc292"
+  integrity sha512-vBUF/IsBDzaejHkNpiquKdc5uPrImXuQ4Mb9lEfNNJ5cyHGI8ThDupR+h3eMFZhfmPE/brfwcIAn/fm0yOvJUg==
+
 lcid@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lcid/-/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
@@ -6420,6 +6430,20 @@ supports-color@^6.0.0, supports-color@^6.1.0:
   integrity sha512-qe1jfm1Mg7Nq/NSh6XE24gPXROEVsWHxC1LIx//XNlD9iw7YZQGjZNjYN7xGaEG6iKdA8EtNFW6R0gjnVXp+wQ==
   dependencies:
     has-flag "^3.0.0"
+
+survey-angular@^1.0.79:
+  version "1.0.79"
+  resolved "https://registry.yarnpkg.com/survey-angular/-/survey-angular-1.0.79.tgz#e57b1739f0b5869b8ba7fd9c710188a66a61c1fd"
+  integrity sha512-N5f4tYxvXnhKJ2vYGaVv986qG5aoYLBKnb61d5fzG+iibPgnNQZPlZZHan3DK6pKgMRw8o4Pw8xI858gwXJWww==
+  dependencies:
+    "@types/knockout" "3.4.46"
+
+survey-knockout@^1.0.79:
+  version "1.0.79"
+  resolved "https://registry.yarnpkg.com/survey-knockout/-/survey-knockout-1.0.79.tgz#34da13f548b387173217c4123fd7e601c6eae286"
+  integrity sha512-mmSPEnFzIgF0AGayHhQp5CfkIJEBxCcdScLxN3D7604vgY0/jq6FIOZuHmUDd/4kJO5uCGQgf/ae+XSKH1KTVQ==
+  dependencies:
+    knockout "^3.4.0"
 
 symbol-observable@1.2.0:
   version "1.2.0"
